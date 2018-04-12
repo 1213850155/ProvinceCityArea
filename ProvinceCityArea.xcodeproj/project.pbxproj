@@ -16,6 +16,12 @@
 		5DE82ADC207F67420030CB19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE82ADB207F67420030CB19 /* main.m */; };
 		5DE82AE6207F67420030CB19 /* ProvinceCityAreaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE82AE5207F67420030CB19 /* ProvinceCityAreaTests.m */; };
 		5DE82AF1207F67420030CB19 /* ProvinceCityAreaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE82AF0207F67420030CB19 /* ProvinceCityAreaUITests.m */; };
+		5DE82B03207F6ABF0030CB19 /* HmAddressCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE82B00207F6ABE0030CB19 /* HmAddressCityModel.m */; };
+		5DE82B04207F6ABF0030CB19 /* HmAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE82B02207F6ABF0030CB19 /* HmAddressModel.m */; };
+		5DE82B07207F6B110030CB19 /* HmSelectAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE82B06207F6B100030CB19 /* HmSelectAdView.m */; };
+		5DE82B0A207F6B910030CB19 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE82B09207F6B910030CB19 /* UIView+Extension.m */; };
+		5DE82B0C207F6F2C0030CB19 /* aiai_area.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5DE82B0B207F6F2B0030CB19 /* aiai_area.txt */; };
+		69C7A24DB1B12D2445385CE4 /* libPods-ProvinceCityArea.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E692884EAC35F45A4F2395C /* libPods-ProvinceCityArea.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,18 @@
 		5DE82AEC207F67420030CB19 /* ProvinceCityAreaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProvinceCityAreaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE82AF0207F67420030CB19 /* ProvinceCityAreaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProvinceCityAreaUITests.m; sourceTree = "<group>"; };
 		5DE82AF2207F67420030CB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE82AFF207F6ABE0030CB19 /* HmAddressModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HmAddressModel.h; sourceTree = "<group>"; };
+		5DE82B00207F6ABE0030CB19 /* HmAddressCityModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HmAddressCityModel.m; sourceTree = "<group>"; };
+		5DE82B01207F6ABE0030CB19 /* HmAddressCityModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HmAddressCityModel.h; sourceTree = "<group>"; };
+		5DE82B02207F6ABF0030CB19 /* HmAddressModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HmAddressModel.m; sourceTree = "<group>"; };
+		5DE82B05207F6B100030CB19 /* HmSelectAdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HmSelectAdView.h; sourceTree = "<group>"; };
+		5DE82B06207F6B100030CB19 /* HmSelectAdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HmSelectAdView.m; sourceTree = "<group>"; };
+		5DE82B08207F6B910030CB19 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		5DE82B09207F6B910030CB19 /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		5DE82B0B207F6F2B0030CB19 /* aiai_area.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aiai_area.txt; sourceTree = "<group>"; };
+		8E692884EAC35F45A4F2395C /* libPods-ProvinceCityArea.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProvinceCityArea.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		963DD6BCE402F95D949D3117 /* Pods-ProvinceCityArea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProvinceCityArea.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProvinceCityArea/Pods-ProvinceCityArea.release.xcconfig"; sourceTree = "<group>"; };
+		E0A5591BF1822D7C85E581B3 /* Pods-ProvinceCityArea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProvinceCityArea.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProvinceCityArea/Pods-ProvinceCityArea.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69C7A24DB1B12D2445385CE4 /* libPods-ProvinceCityArea.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +99,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3933E25889E50E64CBE21318 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0A5591BF1822D7C85E581B3 /* Pods-ProvinceCityArea.debug.xcconfig */,
+				963DD6BCE402F95D949D3117 /* Pods-ProvinceCityArea.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5DE82ABD207F67420030CB19 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +115,8 @@
 				5DE82AE4207F67420030CB19 /* ProvinceCityAreaTests */,
 				5DE82AEF207F67420030CB19 /* ProvinceCityAreaUITests */,
 				5DE82AC7207F67420030CB19 /* Products */,
+				3933E25889E50E64CBE21318 /* Pods */,
+				87C6079ED69D8E2EA7495F53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +133,19 @@
 		5DE82AC8207F67420030CB19 /* ProvinceCityArea */ = {
 			isa = PBXGroup;
 			children = (
+				5DE82B0B207F6F2B0030CB19 /* aiai_area.txt */,
 				5DE82AC9207F67420030CB19 /* AppDelegate.h */,
 				5DE82ACA207F67420030CB19 /* AppDelegate.m */,
 				5DE82ACC207F67420030CB19 /* ViewController.h */,
 				5DE82ACD207F67420030CB19 /* ViewController.m */,
+				5DE82B01207F6ABE0030CB19 /* HmAddressCityModel.h */,
+				5DE82B00207F6ABE0030CB19 /* HmAddressCityModel.m */,
+				5DE82AFF207F6ABE0030CB19 /* HmAddressModel.h */,
+				5DE82B02207F6ABF0030CB19 /* HmAddressModel.m */,
+				5DE82B05207F6B100030CB19 /* HmSelectAdView.h */,
+				5DE82B06207F6B100030CB19 /* HmSelectAdView.m */,
+				5DE82B08207F6B910030CB19 /* UIView+Extension.h */,
+				5DE82B09207F6B910030CB19 /* UIView+Extension.m */,
 				5DE82ACF207F67420030CB19 /* Main.storyboard */,
 				5DE82AD5207F67420030CB19 /* Assets.xcassets */,
 				5DE82AD7207F67420030CB19 /* LaunchScreen.storyboard */,
@@ -135,6 +174,14 @@
 			path = ProvinceCityAreaUITests;
 			sourceTree = "<group>";
 		};
+		87C6079ED69D8E2EA7495F53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E692884EAC35F45A4F2395C /* libPods-ProvinceCityArea.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DE82AF5207F67420030CB19 /* Build configuration list for PBXNativeTarget "ProvinceCityArea" */;
 			buildPhases = (
+				195BDE1D8D2EA0C0BC4D1251 /* [CP] Check Pods Manifest.lock */,
 				5DE82AC2207F67420030CB19 /* Sources */,
 				5DE82AC3207F67420030CB19 /* Frameworks */,
 				5DE82AC4207F67420030CB19 /* Resources */,
+				5DB87F1C2C4186508A504A52 /* [CP] Embed Pods Frameworks */,
+				8BFCFE00382E7477A975B855 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +294,7 @@
 				5DE82AD9207F67420030CB19 /* LaunchScreen.storyboard in Resources */,
 				5DE82AD6207F67420030CB19 /* Assets.xcassets in Resources */,
 				5DE82AD1207F67420030CB19 /* Main.storyboard in Resources */,
+				5DE82B0C207F6F2C0030CB19 /* aiai_area.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,14 +314,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		195BDE1D8D2EA0C0BC4D1251 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DB87F1C2C4186508A504A52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProvinceCityArea/Pods-ProvinceCityArea-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BFCFE00382E7477A975B855 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProvinceCityArea/Pods-ProvinceCityArea-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5DE82AC2207F67420030CB19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5DE82ACE207F67420030CB19 /* ViewController.m in Sources */,
+				5DE82B04207F6ABF0030CB19 /* HmAddressModel.m in Sources */,
+				5DE82B07207F6B110030CB19 /* HmSelectAdView.m in Sources */,
 				5DE82ACB207F67420030CB19 /* AppDelegate.m in Sources */,
 				5DE82ADC207F67420030CB19 /* main.m in Sources */,
+				5DE82B03207F6ABF0030CB19 /* HmAddressCityModel.m in Sources */,
+				5DE82B0A207F6B910030CB19 /* UIView+Extension.m in Sources */,
 				5DE82AD4207F67420030CB19 /* ProvinceCityArea.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +535,7 @@
 		};
 		5DE82AF6207F67420030CB19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0A5591BF1822D7C85E581B3 /* Pods-ProvinceCityArea.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +550,7 @@
 		};
 		5DE82AF7207F67420030CB19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 963DD6BCE402F95D949D3117 /* Pods-ProvinceCityArea.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
